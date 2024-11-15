@@ -27,4 +27,25 @@ button{
     border: 1px solid white;
     width:500px;
     margin: 25px auto;
+    text-overflow: ellipsis;
+    font-size: 8px;
+}
+.text-container, .menu-container{
+    border: 1px solid black;
+    padding:25px;
+    margin:10px;
+}
+
+.menu-container{
+    position: relative;
+}
+.menu-container p{
+ position: absolute;
+ top: 27px;
+ right:52px;
+ transform: skew(-29deg,2deg);
+}
+img{
+    margin-top: 50px;
+    max-width: 100%;
 }
